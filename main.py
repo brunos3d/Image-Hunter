@@ -1,5 +1,3 @@
-# pip install requests for installation
-
 import requests
 from urllib.parse import urljoin
 
@@ -9,6 +7,7 @@ res = requests.get(url)
 html = res.text
 
 open_tag = False
+img_list = set()
 
 
 def find_between(value, first, last):
@@ -20,12 +19,8 @@ def find_between(value, first, last):
         return ''
 
 
-img_list = set()
-
 for word in html.split():
-    # print(word)
     if word.find('<img') > -1:
-        # print('open tag', word)
         open_tag = True
 
     if open_tag == True and word.find('src') > -1:
@@ -38,4 +33,3 @@ for word in html.split():
         img_list.add(img_url)
 
 print(*img_list, sep="\n")
-# print(res.text)
