@@ -3,11 +3,13 @@
 
 ### Instalação
 1. Você precisará ter instalado o Python na sua máquina: https://www.python.org/
-2. Você precisará instalar o seguinte pacote: https://pypi.org/project/requests/
+2. Você precisará instalar o seguinte pacote: http://python-requests.org
 
-Para instalar o pacote `requests` basta rodar o seguinte comando no seu terminal:
+Para instalar o pacote `requests`* basta rodar o seguinte comando no seu terminal:
 
 	pip install requests
+
+*https://pypi.org/project/requests/
 
 ### Rodando o script
 Basta realizar os passos a seguir:
