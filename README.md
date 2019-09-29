@@ -19,5 +19,5 @@ Basta realizar os passos a seguir:
 Feito isso será exibido uma lista de links contendo imagens do site
 
 ### Observações:
-> O Código pode não funcionar em 100% dos sites, pois é um algoritimo relativamente simples feito por mim apenas com fins de aprendizado;
-> O Código não vai funcionar em `Sites Reativos` (React, Angular, Vue...), pelo simples fato de que o scrapping não executa JavaScript e lê apenas o HTML retornado pela url inserida no terminal, ou seja, funcionará apenas em sites estáticos e SSR.
+* O Código pode não funcionar em 100% dos sites, pois é um algoritimo relativamente simples feito por mim apenas com fins de aprendizado;
+* O Código não vai funcionar em `Sites Reativos` (React, Angular, Vue...), pelo simples fato de que o scrapping não executa JavaScript e lê apenas o HTML retornado pela url inserida no terminal, ou seja, funcionará apenas em sites estáticos e SSR.
