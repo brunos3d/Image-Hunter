@@ -1,5 +1,5 @@
 # Image-Hunter
- Python - Simples Scrapper que captura imagens em um site.
+🐍 PYTHON - Simples Page-Scrapper que captura links de imagens em um site.
 
 
 ##### Versão em Node.js: https://github.com/BrunoS3D/Image-Hunter-JS
