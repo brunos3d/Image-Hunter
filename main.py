@@ -33,3 +33,5 @@ for word in html.split():
         img_list.add(img_url)
 
 print(*img_list, sep="\n")
+
+input("Pressione Enter para sair...")

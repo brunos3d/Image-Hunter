@@ -1,6 +1,9 @@
 # Image-Hunter
  Python - Simples Scrapper que captura imagens em um site.
 
+
+##### Versão em Node.js: https://github.com/BrunoS3D/Image-Hunter-JS
+
 ### Instalação
 1. Você precisará ter instalado o Python na sua máquina: https://www.python.org/
 2. Você precisará instalar o seguinte pacote: http://python-requests.org
